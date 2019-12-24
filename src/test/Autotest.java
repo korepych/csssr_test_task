@@ -20,8 +20,10 @@ public class Autotest {
         //проверяем гиперссылку
         try {
             element = driver.findElement(By.xpath(".//a[@href='http://monosnap.com/']"));
+            System.out.println("Right hyperlink!");
         } catch (NoSuchElementException e) {
-            System.out.println("Wrong reference!");
+            System.out.println("Wrong hyperlink!");
         }
+        //driver.close(); //раскоментить если нужно
     }
 }
