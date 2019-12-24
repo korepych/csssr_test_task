@@ -5,4 +5,7 @@ http://git-scm.com/downloads
 4) ввести 
 git clone https://github.com/korepych/csssr_test_task.git 
 (попросит логин и пароль от git)
-5) 
+5) открыть проект в intelijIDEA
+6) скопировать файл chromedriver.exe на диск D:\ или поменять путь на нужный в 8 строчке кода в Autotest.class
+7) в IDEA перейти в File -> Project Structure -> Modules, нажать плюсик справа и добавить все .jar из архива selenium-java-3.141.59.zip в репозитории
+8) запустить тест в IDEA (Autotest.class)
