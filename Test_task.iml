@@ -18,15 +18,6 @@
     </orderEntry>
     <orderEntry type="module-library">
       <library>
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/../selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar!/" />
         </CLASSES>
